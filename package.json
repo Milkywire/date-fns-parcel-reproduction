@@ -1,0 +1,14 @@
+{
+  "source": "./index.html",
+  "scripts": {
+    "build": "parcel build",
+    "start": "parcel --port 8080",
+    "start:prod": "npx http-server dist"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "date-fns": "^3.6.0"
+  }
+}
